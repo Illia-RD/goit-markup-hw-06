@@ -575,9 +575,8 @@ footer .container {
 
   letter-spacing: 0.03em;
 
+  text-align: center;
   color: #212121;
-
-  margin-bottom: var(--tipical-margin-2);
 }
 .close {
   border-radius: 50%;
@@ -602,7 +601,7 @@ footer .container {
   visibility: hidden;
 }
 
-.modal__field:not(:last-of-type) {
+.modal__field {
   margin-top: 10px;
 }
 .modal__field:last-of-type {
