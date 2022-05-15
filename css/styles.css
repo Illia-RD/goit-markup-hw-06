@@ -530,7 +530,7 @@ footer .container {
   border-radius: 4px;
 
   display: flex;
-
+  align-items: center;
   cursor: pointer;
 }
 .mailing-sub__text {
