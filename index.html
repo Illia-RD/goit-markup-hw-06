@@ -532,6 +532,8 @@
               type="email"
               placeholder="E-mail"
               required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              title="example@mail.com"
               class="mailing__input"
             />
             <button type="submit" class="mailing-sub">
@@ -552,7 +554,6 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <!-- <p class="modal__title"></p> -->
         <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
 
         <form>
